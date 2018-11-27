@@ -1,0 +1,6 @@
+08:57:35 **** Auto Build of project SW_BSP_device_tree_bsp_1 ****
+make -k all 
+make: Ništa za napraviti za `all'.
+
+08:57:36 Build Finished (took 283ms)
+

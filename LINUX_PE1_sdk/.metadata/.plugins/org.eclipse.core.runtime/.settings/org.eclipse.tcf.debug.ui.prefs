@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+setup.login.host=192.168.50.178
+setup.login.protocol=SSH
+setup.login.user=root

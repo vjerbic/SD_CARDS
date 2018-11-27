@@ -1,0 +1,84 @@
+14:11:29 **** Incremental Build of configuration Debug for project Linux_Test_App_001 ****
+make all 
+make: Ništa za napraviti za `all'.
+14:28:32 **** Incremental Build of configuration Debug for project Linux_Test_App_001 ****
+make all 
+make: Ništa za napraviti za `all'.
+15:04:57 **** Auto Build of project SW_BSP_device_tree_bsp_1 ****
+make -k all 
+make: Ništa za napraviti za `all'.
+15:11:53 **** Auto Build of project SW_BSP_device_tree_bsp_1 ****
+make -k all 
+make: Ništa za napraviti za `all'.
+15:19:41 **** Incremental Build of configuration Debug for project Linux_Test_App_001 ****
+make all 
+make: Ništa za napraviti za `all'.
+15:21:17 **** Auto Build of project SW_BSP_device_tree_bsp_1 ****
+make -k all 
+make: Ništa za napraviti za `all'.
+15:22:22 **** Incremental Build of configuration Debug for project Linux_Test_App_001 ****
+make all 
+make: Ništa za napraviti za `all'.
+15:31:29 **** Incremental Build of configuration Debug for project Linux_Test_App_001 ****
+make all 
+make: Ništa za napraviti za `all'.
+14:27:13 **** Auto Build of project SW_BSP_device_tree_bsp_1 ****
+make -k all 
+make: Ništa za napraviti za `all'.
+12:48:12 **** Auto Build of project SW_BSP_device_tree_bsp_1 ****
+make -k all 
+make: Ništa za napraviti za `all'.
+12:49:25 **** Incremental Build of configuration Debug for project Linux_Test_App_001 ****
+make all 
+make: Ništa za napraviti za `all'.
+12:50:48 **** Incremental Build of configuration Debug for project Linux_Test_App_001 ****
+make all 
+make: Ništa za napraviti za `all'.
+12:52:36 **** Incremental Build of configuration Debug for project Linux_Test_App_001 ****
+make all 
+make: Ništa za napraviti za `all'.
+12:54:29 **** Incremental Build of configuration Debug for project Linux_Test_App_001 ****
+make all 
+make: Ništa za napraviti za `all'.
+12:55:18 **** Incremental Build of configuration Debug for project Linux_Test_App_001 ****
+make all 
+make: Ništa za napraviti za `all'.
+12:56:54 **** Incremental Build of configuration Debug for project Linux_Test_App_001 ****
+make all 
+make: Ništa za napraviti za `all'.
+13:17:01 **** Auto Build of project SW_BSP_device_tree_bsp_1 ****
+make -k all 
+make: Ništa za napraviti za `all'.
+14:05:16 **** Auto Build of project SW_BSP_device_tree_bsp_1 ****
+make -k all 
+make: Ništa za napraviti za `all'.
+15:14:24 **** Incremental Build of configuration Debug for project Linux_Test_App_001 ****
+make all 
+make: Ništa za napraviti za `all'.
+15:16:13 **** Incremental Build of configuration Debug for project Linux_Test_App_001 ****
+make all 
+make: Ništa za napraviti za `all'.
+15:16:34 **** Incremental Build of configuration Debug for project Linux_Test_App_001 ****
+make all 
+make: Ništa za napraviti za `all'.
+15:17:09 **** Incremental Build of configuration Debug for project Linux_Test_App_001 ****
+make all 
+make: Ništa za napraviti za `all'.
+15:17:26 **** Incremental Build of configuration Debug for project Linux_Test_App_001 ****
+make all 
+make: Ništa za napraviti za `all'.
+15:18:40 **** Incremental Build of configuration Debug for project Linux_Test_App_001 ****
+make all 
+make: Ništa za napraviti za `all'.
+15:23:31 **** Incremental Build of configuration Debug for project Linux_Test_App_001 ****
+make all 
+make: Ništa za napraviti za `all'.
+15:25:32 **** Auto Build of project SW_BSP_device_tree_bsp_1 ****
+make -k all 
+make: Ništa za napraviti za `all'.
+08:44:09 **** Auto Build of project SW_BSP_device_tree_bsp_1 ****
+make -k all 
+make: Ništa za napraviti za `all'.
+08:57:35 **** Auto Build of project SW_BSP_device_tree_bsp_1 ****
+make -k all 
+make: Ništa za napraviti za `all'.

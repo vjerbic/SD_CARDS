@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]H:\GIT_REPO\SDCARD\out_20181031072135_Zynq-7000_Mercury_ZX1_Mercury_PE1_MMC_binCustom\fsbl.elf
+	H:\GIT_REPO\LINUX_PE1_sdk\HW__ZX1_Base_3_PE1_02\system_top.bit
+	H:\GIT_REPO\SDCARD\out_20181031072135_Zynq-7000_Mercury_ZX1_Mercury_PE1_MMC_binCustom\u-boot.elf
+}

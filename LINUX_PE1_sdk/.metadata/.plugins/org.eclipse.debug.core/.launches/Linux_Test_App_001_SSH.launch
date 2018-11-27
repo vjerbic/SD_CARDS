@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.tcf.debug.LaunchConfigurationType">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Linux_Test_App_001"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.tcf.debug.AttachChildren" value="true"/>
+<intAttribute key="org.eclipse.tcf.debug.BuildBeforeLaunch" value="0"/>
+<booleanAttribute key="org.eclipse.tcf.debug.DisconnectOnCtxExit" value="true"/>
+<stringAttribute key="org.eclipse.tcf.debug.LocalProgramFile" value="Debug\Linux_Test_App_001.elf"/>
+<stringAttribute key="org.eclipse.tcf.debug.PeerID" value="TCP:192.168.51.93:1534"/>
+<stringAttribute key="org.eclipse.tcf.debug.ProgramFile" value=""/>
+<stringAttribute key="org.eclipse.tcf.debug.ProjectName" value="Linux_Test_App_001"/>
+<booleanAttribute key="org.eclipse.tcf.debug.RunLocalAgent" value="false"/>
+<booleanAttribute key="org.eclipse.tcf.debug.RunLocalServer" value="false"/>
+<booleanAttribute key="org.eclipse.tcf.debug.StopAtEntry" value="true"/>
+<booleanAttribute key="org.eclipse.tcf.debug.StopAtMain" value="true"/>
+<booleanAttribute key="org.eclipse.tcf.debug.UseLocalAgent" value="false"/>
+<booleanAttribute key="org.eclipse.tcf.debug.UseTerminal" value="true"/>
+</launchConfiguration>

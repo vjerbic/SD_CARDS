@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SW_BSP__device_tree_bsp_0/PDCPU_ZX1.dtsi&apos; to &apos;PDCPU_ZX1.dts&apos;" description="Rename resource &apos;PDCPU_ZX1.dtsi&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="PDCPU_ZX1.dtsi" name="PDCPU_ZX1.dts" stamp="1540986214863" updateReferences="true"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SW_BSP_device_tree_bsp_1/pcw.dtsi&apos; to &apos;pcw_KIET.dtsi&apos;" description="Rename resource &apos;pcw.dtsi&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="pcw.dtsi" name="pcw_KIET.dtsi" stamp="1541418450727" updateReferences="true"/>
+</session>

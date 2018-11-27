@@ -1,0 +1,107 @@
+/*
+ * Created By: Vedran Jerbic
+ * Checked By: Vilko Cindric
+ * Company: Koncar IET
+ * Version: v1.0  
+ * Today is: Wed Oct 31 12:25:02 2018
+ */
+
+
+/dts-v1/;
+/include/ "zynq-7000.dtsi"
+/include/ "pcw.dtsi"
+/include/ "pl.dtsi"
+/ {
+	chosen {
+		/* Copied from Enclustra ZX1 DTB */
+		bootargs = "console=ttyPS0,115200 rw earlyprintk rootwait root=/dev/mmcblk0p2 uio_pdrv_genirq.of_id=generic-uio";
+		linux,stdout-path = "/amba/serial@e0000000";
+		
+		
+	/*	bootargs = "earlycon";
+		stdout-path = "serial0:115200n8"; */
+	};
+	aliases {
+		ethernet0 = &gem0;
+		i2c0 = &i2c0;
+		serial0 = &uart0;
+		spi0 = &qspi;
+	};
+	memory {
+		device_type = "memory";
+		reg = <0x0 0x40000000>;
+	};
+	
+};
+	
+/* PL compatible / driver modifications */
+&TBIM_0_TBIM_IF_0{
+	compatible = "generic-uio";
+};
+
+&TBIM_0_TRAN_REC_0{
+	compatible = "generic-uio";
+};
+
+/* Specify I2C devices and their I2C Slave Address */
+	&i2c0{			
+		/* RTC - disabled by default */			
+		pcf85063@51 {
+			status = "disabled";
+			compatible = "nxp,pcf85063";
+			reg = <0x51>;
+		};
+
+		/* RTC - enabled by default */
+		isl12022@68 {
+			status = "okay";
+			compatible = "isil,isl12022";
+			reg = <0x6f>;
+		};		
+	};
+	
+&qspi{			
+	/* Partitioning */
+	flash@0 {
+		compatible = "n25q128a11";
+		reg = <0x0>;
+		spi-tx-bus-width = <0x1>;
+		spi-rx-bus-width = <0x4>;
+		spi-max-frequency = <0x2faf080>;
+		#address-cells = <0x1>;
+		#size-cells = <0x1>;
+
+		partition@qspi-bootimage {
+			label = "qspi-bootimage";
+			reg = <0x0 0x700000>;
+		};
+
+		partition@qspi-kernel {
+			label = "qspi-kernel";
+			reg = <0x700000 0x500000>;
+		};
+
+		partition@qspi-device-tree {
+			label = "qspi-device-tree";
+			reg = <0xc00000 0x80000>;
+		};
+
+		partition@qspi-bootargs {
+			label = "qspi-bootargs";
+			reg = <0x3f80000 0x80000>;
+		};
+
+		partition@qspi-bootscript {
+			label = "qspi-bootscript";
+			reg = <0xc80000 0x80000>;
+		};
+
+		partition@qspi-rootfs {
+			label = "qspi-rootfs";
+			reg = <0xd00000 0x3280000>;
+		};
+	};
+};
+	
+
+

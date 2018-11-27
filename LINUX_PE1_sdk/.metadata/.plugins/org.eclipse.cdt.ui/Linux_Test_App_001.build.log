@@ -1,0 +1,6 @@
+15:23:31 **** Incremental Build of configuration Debug for project Linux_Test_App_001 ****
+make all 
+make: Ništa za napraviti za `all'.
+
+15:23:31 Build Finished (took 208ms)
+
